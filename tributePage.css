@@ -1,25 +1,38 @@
 
 
-body {
-    width: 100% !important;
+.responsive {
+  width: 100%;
   }
   
   .header {
     position: fixed;
-    z-index: 2;
+    z-index: 1;
     width: 100%;
     padding: 12px;
     background: black;
     color: #d3d3d3;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  h2 {
+    font-size: 1.5vw;
   }
   
-  .background {
-    background-image: url("https://pmcvariety.files.wordpress.com/2013/09/hayao-miyazaki.jpg?w=1000&h=563&crop=1");
-    height: 5000px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 50% 250%;
+  .backgroundImage {
+    display: block;
+    margin-left: 10%;
+    margin-top: 200px;
+    width: 80%;
+    position: fixed;
+  }
+
+  .background { 
     background-color: #080808;
+    height: 6300px;
   }
   
   .home {
@@ -27,8 +40,8 @@ body {
     position: relative;
     float: center;
     top: 1000px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 20%;
+    margin-right: 20%;
     background: rgba(255, 255, 255, 0.65);
     color: black;
     padding: 10px;
@@ -37,7 +50,7 @@ body {
     min-width: 50%;
   }
   
-  img {
+  .filmImage {
     border-radius: 10%;
     width: 150px;
     height: 200px;
@@ -49,8 +62,8 @@ body {
     position: relative;
     display: block;
     top: 1000px;
-    margin-right: 150px;
-    max-width: 20%;
+    margin-right: 5%;
+    max-width: 10%;
     height: auto;
   }
   
@@ -58,8 +71,8 @@ body {
     float: left;
     position: relative;
     top: 1000px;
-    margin-left: 150px;
-    max-width: 20%;
+    margin-left: 5%;
+    max-width: 10%;
     height: auto;
   }
   
