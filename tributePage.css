@@ -30,7 +30,7 @@
     height: 4400px;
   }
   
-  .home {
+  .main {
     font-size: 16px;
     position: relative;
     float: center;
@@ -46,28 +46,26 @@
   }
   
   .filmImage {
-    border-radius: 10%;
+    display: block;
+    position: relative;
     width: 150px;
-    height: 200px;
+    max-width: 10%;
+    height: auto;
+    border-radius: 5%;
     box-shadow: 0 6px 50px white;
   }
   
   .rightImages {
-    float: right;
-    position: relative;
-    display: block;
+    float: right;   
     top: 1000px;
     margin-right: 5%;
-    max-width: 10%;
-    height: auto;
+    
+    
   }
   
   .leftImages {
     float: left;
-    position: relative;
     top: 1000px;
     margin-left: 5%;
-    max-width: 10%;
-    height: auto;
   }
   
