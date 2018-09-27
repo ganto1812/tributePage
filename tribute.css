@@ -27,7 +27,7 @@
 
   .background { 
     background-color: #080808;
-    height: 4400px;
+    height: 12000px;
   }
   
   .main {
@@ -69,3 +69,16 @@
     margin-left: 5%;
   }
   
+  @media (max-width: 800px) {
+    .backgroundImage {
+      width: 120%;
+      margin-left: -10%;
+    }
+    .btn {
+      padding: 5px;
+      font-size: 10px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
